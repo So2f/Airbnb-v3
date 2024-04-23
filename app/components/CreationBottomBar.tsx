@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
-import SubmitButtons from "./SubmitButtons";
+import { SubmitButtons } from "./SubmitButtons";
 
 function CreationBottomBar() {
   return (
