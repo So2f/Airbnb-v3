@@ -32,7 +32,5 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect(
-    "https://airbnb-v3-d0dfro1eh-so2fs-projects.vercel.app"
-  );
+  return NextResponse.redirect("https://airbnb-v3.vercel.app");
 }
