@@ -32,5 +32,7 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect("http://localhost:3000");
+  return NextResponse.redirect(
+    "https://airbnb-v3-d0dfro1eh-so2fs-projects.vercel.app"
+  );
 }
